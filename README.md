@@ -21,4 +21,5 @@ return [
    - Fill payload URL https://yourdomain.com/deploy
    - Choose contentType - application/json
    - Fill secret from your deploy.php
+   - Add to  /etc/sudoers : www-data    ALL=(your-git-user) NOPASSWD:ALL
 
