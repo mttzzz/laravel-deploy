@@ -4,6 +4,7 @@ namespace Mttzzz\LaravelDeploy\Console;
 
 
 use Illuminate\Console\Command;
+use mttzzz\laravelTelegramLog\Telegram;
 
 class DeployCommand extends Command
 {
@@ -18,6 +19,7 @@ class DeployCommand extends Command
 
     public function handle()
     {
-        exec('git pull');
+        exec('git pull', $output);
+        Telegram::log($output);
     }
 }
