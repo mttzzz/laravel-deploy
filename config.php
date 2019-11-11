@@ -2,5 +2,5 @@
 
 return [
     // Telegram Bot Token
-    'secret' => env('DEPLOY_SEVRET', '')
+    'secret' => env('DEPLOY_SECRET', '')
 ];
