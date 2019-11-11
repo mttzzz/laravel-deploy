@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "mttzzz\\laravelDeploy\\LaravelDeployServiceProvider":""
+            "mttzzz\\laravelDeploy\\LaravelDeployServiceProvider\\":""
         }
     },
     "minimum-stability": "dev",
