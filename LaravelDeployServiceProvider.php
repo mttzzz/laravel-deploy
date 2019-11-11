@@ -1,9 +1,9 @@
 <?php
 
-namespace mttzzz\laravelDeploy;
+namespace Mttzzz\LaravelDeploy;
 
 use Illuminate\Support\ServiceProvider;
-use mttzzz\laravelDeploy\Console\DeployCommand;
+use Mttzzz\LaravelDeploy\Console\DeployCommand;
 
 class LaravelDeployServiceProvider extends ServiceProvider
 {
