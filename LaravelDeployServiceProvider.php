@@ -5,7 +5,7 @@ namespace mttzzz\laravelDeploy;
 use Illuminate\Support\ServiceProvider;
 use mttzzz\laravelDeploy\Console\DeployCommand;
 
-class DeployServiceProvider extends ServiceProvider
+class LaravelDeployServiceProvider extends ServiceProvider
 {
     public function boot()
     {
