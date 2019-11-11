@@ -4,6 +4,7 @@
     "require": {
         "mttzzz/laravel-telegram-log": "*"
     },
+    "description": "Deploy from GitHub",
     "authors": [
         {
             "name": "Pushka",
