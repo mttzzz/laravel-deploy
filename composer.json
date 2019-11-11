@@ -1,0 +1,26 @@
+{
+    "name": "mttzzz/laravel-deploy",
+    "license": "MIT",
+    "require": {
+        "mttzzz/laravel-telegram-log": "*"
+    },
+    "authors": [
+        {
+            "name": "Pushka",
+            "email": "info@pushka.biz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mttzzz\\laravelDeploy\\":""
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mttzzz\\laravelTelegramLog\\TelegramLogServiceProvider"
+            ]
+        }
+    }
+}
