@@ -2,6 +2,8 @@
 
 namespace mttzzz\laravelDeploy\Console;
 
+namespace Mttzzz\LaravelDeploy\Console;
+
 use Illuminate\Console\Command;
 
 class DeployCommand extends Command
@@ -16,7 +18,7 @@ class DeployCommand extends Command
     }
 
     public function handle()
-    { 
+    {
         //exec('git pull -all');
     }
 }

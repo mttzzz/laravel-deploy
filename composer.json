@@ -5,22 +5,20 @@
         "mttzzz/laravel-telegram-log": "*"
     },
     "description": "Deploy from GitHub",
-    "authors": [
-        {
-            "name": "Pushka",
-            "email": "info@pushka.biz"
-        }
-    ],
+    "authors": [{
+        "name": "Pushka",
+        "email": "info@pushka.biz"
+    }],
     "autoload": {
         "psr-4": {
-            "mttzzz\\laravelDeploy\\":""
+            "Mttzzz\\LaravelDeploy\\": ""
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "mttzzz\\laravelDeploy\\LaravelDeployServiceProvider"
+                "Mttzzz\\LaravelDeploy\\LaravelDeployServiceProvider"
             ]
         }
     }

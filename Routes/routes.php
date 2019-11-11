@@ -1,2 +1,2 @@
 <?php
-Route::any('/deploy', 'mtttzzz\laravelDeploy\Controllers\DeployController@deploy');
+Route::post('/deploy', 'Mttzzz\LaravelDeploy\Controllers\DeployController@deploy');
