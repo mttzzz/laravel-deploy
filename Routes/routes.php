@@ -1,6 +1,6 @@
 <?php
 use mttzzz\laravelTelegramLog\Telegram;
 
-Route::post('deploy', function (Request $request) {
+Route::all('deploy', function (Request $request) {
     Telegram::log($request->all);
 });
