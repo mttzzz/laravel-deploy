@@ -4,7 +4,7 @@ namespace Mttzzz\LaravelDeploy\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use mttzzz\laravelTelegramLog\Telegram;
+use Mttzzz\LaravelTelegramLog\Telegram;
 use App\Http\Controllers\Controller;
 
 class DeployController extends Controller

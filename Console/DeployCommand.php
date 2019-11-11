@@ -1,8 +1,7 @@
 <?php
 
-namespace mttzzz\laravelDeploy\Console;
-
 namespace Mttzzz\LaravelDeploy\Console;
+
 
 use Illuminate\Console\Command;
 
