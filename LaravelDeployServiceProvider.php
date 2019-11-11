@@ -3,6 +3,7 @@
 namespace Mttzzz\LaravelDeploy;
 
 use Illuminate\Support\ServiceProvider;
+use Mttzzz\LaravelDeploy\Console\DeployCommand;
 
 
 class LaravelDeployServiceProvider extends ServiceProvider
