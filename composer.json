@@ -12,14 +12,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "mttzzz\\laravelDeploy\\":""
+            "mttzzz\\laravelDeploy\\LaravelDeployServiceProvider":""
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "mttzzz\\laravelTelegramLog\\TelegramLogServiceProvider"
+                "mttzzz\\laravelDeploy\\LaravelDeployServiceProvider"
             ]
         }
     }
