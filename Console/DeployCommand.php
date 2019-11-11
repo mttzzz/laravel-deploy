@@ -19,6 +19,6 @@ class DeployCommand extends Command
 
     public function handle()
     {
-        //exec('git pull -all');
+        exec('git pulls');
     }
 }
