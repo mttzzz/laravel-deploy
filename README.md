@@ -6,7 +6,7 @@
     composer require mttzzz/laravel-deploy
 
 ### Publish config
-    php artisan vendor:publish --provider Mttzzz\laravelDeploy\LaravelDeployServiceProvider
+    php artisan vendor:publish --provider Mttzzz\LaravelDeploy\LaravelDeployServiceProvider
     
 Edit app/config/deploy.php and fill your webhook secret or add env variables.
 ```php
