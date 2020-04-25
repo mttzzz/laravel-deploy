@@ -19,6 +19,7 @@ class DeployCommand extends Command
 
     public function handle()
     {
+        exec('sudo -u dima git reset --hard origin/master 2>&1', $output1);
         exec('sudo -u dima git pull 2>&1', $output);
         Telegram::log($output);
     }
