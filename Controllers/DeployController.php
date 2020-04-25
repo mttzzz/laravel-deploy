@@ -2,10 +2,9 @@
 
 namespace Mttzzz\LaravelDeploy\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-
-use App\Http\Controllers\Controller;
 use mttzzz\laravelTelegramLog\Telegram;
 
 class DeployController extends Controller
@@ -24,6 +23,7 @@ class DeployController extends Controller
                 $data['branch'] = $request->ref;
                 Telegram::log($data);
                 Artisan::call('git:deploy');
+                Artisan::call('queue:restart');
                 return $data;
             } else {
                 return ['error' => 'bad secret'];
